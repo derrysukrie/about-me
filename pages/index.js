@@ -4,17 +4,17 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Derry Sukrie</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Hello <a href="https://nextjs.org">there!</a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Lil bit introduction bout me
         </p>
 
         <div className="grid">
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
+      {/* <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -57,7 +57,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
-      </footer>
+      </footer> */}
 
       <style jsx>{`
         .container {
