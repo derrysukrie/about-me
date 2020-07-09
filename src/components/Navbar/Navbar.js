@@ -1,23 +1,20 @@
 function Navbar() {
   return (
-    <div>
-      <header className="navbar-wrapper">
-        <div className="upper-section">
-          <span className="title-name">
-            Derry
+    <header className="navbar-wrapper">
+      <div className="upper-section">
+        <span className="title-name">
+          Derry
           </span>
-          {/* <span className="title-name">
+        {/* <span className="title-name">
             Derry
           </span> */}
-        </div>
-        <div className="lower-section">
-          <nav className="bar">
-            <a className="link" href="/">Home</a>
-            <a className="link" href="/project">Project</a>
-          </nav>
-        </div>
-      
-      </header>
+      </div>
+      <div className="lower-section">
+        <nav className="bar">
+          <a className="link" href="/">Home</a>
+          <a className="link" href="/project">Project</a>
+        </nav>
+      </div>
       <style jsx>
         {`
           .upper-section {
@@ -28,7 +25,7 @@ function Navbar() {
             min-width: 0;
           }
           .navbar-wrapper {
-          
+            margin-top: 2rem;
           }
           .lower-section {
             box-sizing: border-box;
@@ -53,7 +50,7 @@ function Navbar() {
           }
         `}
       </style>
-    </div>
+    </header>
   );
 };
 

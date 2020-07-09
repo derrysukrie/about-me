@@ -13,7 +13,15 @@ const DefaultLayout = ({ children }) => {
 
       <style jsx>{`
         .container {
-          padding: 4rem 10rem 2rem 10rem
+          box-sizing: border-box;
+          margin: 0;
+          min-width: 0;
+          width: 100%;
+          max-width: container;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 1rem;
+          max-width: 1024px;
         }
       `}</style>
     </div>
