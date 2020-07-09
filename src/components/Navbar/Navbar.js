@@ -47,6 +47,7 @@ function Navbar() {
           }
           .link:hover {
             color: black;
+            background: transparent !important;
           }
         `}
       </style>
