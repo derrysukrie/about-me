@@ -11,8 +11,12 @@ function Navbar() {
       </div>
       <div className="lower-section">
         <nav className="bar">
-          <a className="link" href="/">Home</a>
-          <a className="link" href="/project">Project</a>
+          <span className="link-wrapper">
+            <a className="link" href="/">Home</a>
+          </span>
+          <span>
+            <a className="link" href="/project">Project</a>
+          </span>
         </nav>
       </div>
       <style jsx>
@@ -40,14 +44,17 @@ function Navbar() {
           .title-name {
             font-size: 2.5rem;
           }
-          .link {
+          .link-wrapper {
             padding-right: 2rem;
+          }
+          .link {
             color: #606063;
             text-decoration: none;
           }
           .link:hover {
             color: black;
             background: transparent !important;
+            text-decoration: underline;
           }
         `}
       </style>
