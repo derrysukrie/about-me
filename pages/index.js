@@ -1,34 +1,13 @@
-import Head from 'next/head'
+import Navbar from 'src/components/Navbar/Navbar'
+import DefaultLayout from 'src/layout/DefaultLayout'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Derry Sukrie</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <h1 className="title">
-          Hello there
-        </h1>
-
-        <p className="description">
-          Lil bit introduction bout me
-        </p>
-
-      </main>
+    <DefaultLayout>
+      <Navbar />
 
       <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
+      
         main {
           padding: 2rem 0;
           flex: 1;
@@ -76,7 +55,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          font-size: 3rem;
         }
 
         .title,
@@ -86,7 +65,7 @@ export default function Home() {
 
         .description {
           line-height: 1.5;
-          font-size: 1.5rem;
+          font-size: 1rem;
         }
 
         code {
@@ -154,15 +133,14 @@ export default function Home() {
         html,
         body {
           padding: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
+          font-family: 'Barlow', sans-serif;
+          margin: 0
         }
-
         * {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
-  )
-}
+    </DefaultLayout>
+  );
+};
+
