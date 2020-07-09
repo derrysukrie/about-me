@@ -18,6 +18,14 @@ function Navbar() {
             <a className="link" href="/project">Project</a>
           </span>
         </nav>
+        <nav className="bar">
+          <span className="link-wrapper">
+            <a className="link" href="/">Twitter</a>
+          </span>
+          <span>
+            <a className="link" href="/project">Instagram</a>
+          </span>
+        </nav>
       </div>
       <style jsx>
         {`
@@ -30,11 +38,14 @@ function Navbar() {
           }
           .navbar-wrapper {
             margin-top: 2rem;
+            margin-bottom: 6rem;
           }
           .lower-section {
             box-sizing: border-box;
             border-bottom-style: solid;
+            display: flex;
             border-bottom-width: 1px;
+            justify-content: space-between;
             border-bottom-color: var(--theme-ui-colors-divide,#cbd5e0);
           }
           .bar {
@@ -43,6 +54,7 @@ function Navbar() {
           }
           .title-name {
             font-size: 2.5rem;
+            font-weight: 600;
           }
           .link-wrapper {
             padding-right: 2rem;
