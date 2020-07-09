@@ -7,7 +7,10 @@ const DefaultLayout = ({ children }) => {
       <Head>
         <title>Derry Sukrie</title>
         <link rel="icon" href="/favicon.ico" />
+        <html lang="en" />
+        <meta name="description" content="A Frontend Engineer based in Jakarta, Indonesia"/>
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <meta property="og:title" content="My new title" key="title" />
       </Head>
       {children}
 

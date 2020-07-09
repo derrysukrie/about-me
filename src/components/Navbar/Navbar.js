@@ -2,9 +2,9 @@ function Navbar() {
   return (
     <header className="navbar-wrapper">
       <div className="upper-section">
-        <span className="title-name">
+        <h1 className="title-name">
           Derry
-          </span>
+          </h1>
         {/* <span className="title-name">
             Derry
           </span> */}
