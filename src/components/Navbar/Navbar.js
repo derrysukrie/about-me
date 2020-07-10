@@ -17,7 +17,7 @@ function Navbar() {
             <a className="link" href="/">Home</a>
           </span>
           <span>
-            <a className="link" href="/project">Project</a>
+            {/* <a className="link" href="/project">Project</a> */}
           </span>
         </nav>
         <nav className="bar">
@@ -25,7 +25,7 @@ function Navbar() {
             <a className="link" href="/">Twitter</a>
           </span>
           <span>
-            <a className="link" href="/project">Instagram</a>
+            <a className="link" href="https://www.instagram.com/derrysukrie/">Instagram</a>
           </span>
         </nav>
       </div>

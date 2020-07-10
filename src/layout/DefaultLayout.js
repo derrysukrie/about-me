@@ -1,5 +1,5 @@
 import React from 'react';
-import Head from 'next/head';
+import Head from 'next/head'
 
 const DefaultLayout = ({ children }) => {
   return (
@@ -13,7 +13,6 @@ const DefaultLayout = ({ children }) => {
         <meta property="og:title" content="My new title" key="title" />
       </Head>
       {children}
-
       <style jsx>{`
         .container {
           box-sizing: border-box;
