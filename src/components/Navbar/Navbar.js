@@ -1,13 +1,15 @@
+// import './navbar.scss';
+
 function Navbar() {
   return (
     <header className="navbar-wrapper">
       <div className="upper-section">
         <h1 className="title-name">
           Derry
-          </h1>
-        {/* <span className="title-name">
-            Derry
-          </span> */}
+        </h1>
+        <h1 className="job-title">
+          Frontend Engineer
+        </h1>
       </div>
       <div className="lower-section">
         <nav className="bar">
@@ -27,49 +29,6 @@ function Navbar() {
           </span>
         </nav>
       </div>
-      <style jsx>
-        {`
-          .upper-section {
-            box-sizing: border-box;
-            margin: 0;
-            display: flex;
-            justify-content: space-between;
-            min-width: 0;
-          }
-          .navbar-wrapper {
-            margin-top: 2rem;
-            margin-bottom: 6rem;
-          }
-          .lower-section {
-            box-sizing: border-box;
-            border-bottom-style: solid;
-            display: flex;
-            border-bottom-width: 1px;
-            justify-content: space-between;
-            border-bottom-color: var(--theme-ui-colors-divide,#cbd5e0);
-          }
-          .bar {
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-          }
-          .title-name {
-            font-size: 2.5rem;
-            font-weight: 600;
-          }
-          .link-wrapper {
-            padding-right: 2rem;
-          }
-          .link {
-            color: #606063;
-            text-decoration: none;
-          }
-          .link:hover {
-            color: black;
-            background: transparent !important;
-            text-decoration: underline;
-          }
-        `}
-      </style>
     </header>
   );
 };
