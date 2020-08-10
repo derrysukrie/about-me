@@ -22,7 +22,7 @@ function Techstack() {
                 <div className='techstack__card'>
                   <img src='images/typescript.svg' className="rounded" alt='logos' width='120' />
                   <div className='text-center pt-3 font-weight-bold'>
-                    <span>Javascript</span>
+                    <span>Typescript</span>
                   </div>
                 </div>
               </div>
