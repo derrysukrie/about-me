@@ -17,7 +17,7 @@ function Navbar() {
             <a className="link" href="/">Home</a>
           </span>
           <span>
-            {/* <a className="link" href="/project">Project</a> */}
+            <a className="link" href="https://github.com/derrysukrie">Github</a>
           </span>
         </nav>
         <nav className="bar">
