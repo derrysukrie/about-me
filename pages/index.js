@@ -3,8 +3,11 @@ import Head from "next/head";
 import Navbar from "src/components/Navbar/Navbar";
 import DefaultLayout from "src/layout/DefaultLayout";
 import Aboutme from "src/components/Aboutme/Aboutme";
-import "./app.scss";
 import Techstack from "src/components/Techstack/Techstack";
+
+import "./app.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Home() {
   return (
