@@ -2,6 +2,9 @@ import React from 'react';
 import ToxicityApp from 'src/components/ToxicityApp/ToxicityApp';
 import Head from 'next/head';
 
+import './app.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Toxicity() {
   return (
     <>
