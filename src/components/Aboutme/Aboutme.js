@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react';
+import Link from 'next/link';
 
 import './aboutme.scss';
 
@@ -17,6 +18,12 @@ function Aboutme() {
         Hello there 👋
       </span>
       <div className="aboutme__intro">{string}</div>
+      <Link href="/toxicity-test">
+        <div className="aboutme__tensor-link">
+          {' '}
+          See im playing with Tensorflow - Toxicity words
+        </div>
+      </Link>
     </div>
   );
 }

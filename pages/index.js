@@ -10,11 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>Derry Sukrie</title>
         <link rel="icon" href="/favicon.ico" />
-        <html lang="en" />
         <meta
           name="description"
           content="A Frontend Engineer based in Jakarta, Indonesia"
@@ -29,6 +28,6 @@ export default function Home() {
         <Aboutme />
         <Techstack />
       </DefaultLayout>
-    </>
+    </div>
   );
 }
