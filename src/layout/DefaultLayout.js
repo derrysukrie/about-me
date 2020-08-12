@@ -3,9 +3,7 @@ import React from 'react';
 const DefaultLayout = ({ children }) => {
   return (
     <div className="container">
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       <style jsx>{`
         .container {
           box-sizing: border-box;
