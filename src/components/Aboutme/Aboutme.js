@@ -21,7 +21,8 @@ function Aboutme() {
       <Link href="/toxicity-test">
         <div className="aboutme__tensor-link">
           {' '}
-          See im playing with Tensorflow - Toxicity words
+          See im playing with Tensorflow - Toxicity words (Might not running
+          well on mobile)
         </div>
       </Link>
     </div>
