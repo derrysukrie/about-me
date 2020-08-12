@@ -80,17 +80,9 @@ function ToxicityApp() {
               <td>Identity Attack</td>
               <td>
                 {indentity_attack === true ? (
-                  <img
-                    src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/check-mark.png" alt="icon" width="20" />
                 ) : indentity_attack === true ? (
-                  <img
-                    src="https://img.icons8.com/fluent/48/000000/close-window.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/close.png" alt="icon" width="20" />
                 ) : null}
               </td>
             </tr>
@@ -98,17 +90,9 @@ function ToxicityApp() {
               <td>Insult</td>
               <td>
                 {insult === true ? (
-                  <img
-                    src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/check-mark.png" alt="icon" width="20" />
                 ) : insult === false ? (
-                  <img
-                    src="https://img.icons8.com/fluent/48/000000/close-window.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/close.png" alt="icon" width="20" />
                 ) : null}
               </td>
             </tr>
@@ -116,17 +100,9 @@ function ToxicityApp() {
               <td>Obscene</td>
               <td>
                 {obscene === true ? (
-                  <img
-                    src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/check-mark.png" alt="icon" width="20" />
                 ) : obscene === false ? (
-                  <img
-                    src="https://img.icons8.com/fluent/48/000000/close-window.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/close.png" alt="icon" width="20" />
                 ) : null}
               </td>
             </tr>
@@ -134,17 +110,9 @@ function ToxicityApp() {
               <td>Severe Toxicity</td>
               <td>
                 {severe_toxicity === true ? (
-                  <img
-                    src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/check-mark.png" alt="icon" width="20" />
                 ) : severe_toxicity === false ? (
-                  <img
-                    src="https://img.icons8.com/fluent/48/000000/close-window.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/close.png" alt="icon" width="20" />
                 ) : null}
               </td>
             </tr>
@@ -152,17 +120,9 @@ function ToxicityApp() {
               <td>Sexual Explicit</td>
               <td>
                 {sexual_explicit === true ? (
-                  <img
-                    src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/check-mark.png" alt="icon" width="20" />
                 ) : sexual_explicit === false ? (
-                  <img
-                    src="https://img.icons8.com/fluent/48/000000/close-window.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/close.png" alt="icon" width="20" />
                 ) : null}
               </td>
             </tr>
@@ -170,17 +130,9 @@ function ToxicityApp() {
               <td>Threat</td>
               <td>
                 {threat === true ? (
-                  <img
-                    src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/check-mark.png" alt="icon" width="20" />
                 ) : threat === false ? (
-                  <img
-                    src="https://img.icons8.com/fluent/48/000000/close-window.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/close.png" alt="icon" width="20" />
                 ) : null}
               </td>
             </tr>
@@ -188,17 +140,9 @@ function ToxicityApp() {
               <td>Toxicity</td>
               <td>
                 {toxicityy === true ? (
-                  <img
-                    src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/check-mark.png" alt="icon" width="20" />
                 ) : toxicityy === false ? (
-                  <img
-                    src="https://img.icons8.com/fluent/48/000000/close-window.png"
-                    alt="icon"
-                    width="20"
-                  />
+                  <img src="images/close.png" alt="icon" width="20" />
                 ) : null}
               </td>
             </tr>
