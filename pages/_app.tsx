@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import React from 'react';
-import Navbar from 'src/components/Navbar/Navbar';
-import DefaultLayout from 'src/layout/DefaultLayout';
-import Aboutme from 'src/components/Aboutme/Aboutme';
-import Techstack from 'src/components/Techstack/Techstack';
 
 import './app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import DefaultLayout from 'layout/DefaultLayout';
+import Navbar from 'components/Navbar/Navbar';
+import Aboutme from 'components/Aboutme/Aboutme';
+import Techstack from 'components/Techstack/Techstack';
 
 export default function Home() {
   return (
