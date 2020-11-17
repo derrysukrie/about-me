@@ -18,12 +18,8 @@ function Aboutme() {
         Hello there 👋
       </span>
       <div className="aboutme__intro">{string}</div>
-      <Link href="/toxicity-test">
-        <div className="aboutme__tensor-link">
-          {' '}
-          See im playing with Tensorflow - Toxicity words (Might not running
-          well on mobile)
-        </div>
+      <Link href="//pokemon-app-eight.vercel.app/">
+        <div className="aboutme__pokemon-link"> See my Pokemon App</div>
       </Link>
     </div>
   );

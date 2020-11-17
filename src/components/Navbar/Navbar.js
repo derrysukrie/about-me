@@ -23,7 +23,7 @@ function Navbar() {
         </nav>
         <nav className="bar">
           <span className="link-wrapper">
-            <a className="link" href="https://twitter.com/asyyncawait">
+            <a className="link" href="https://twitter.com/const_derry">
               Twitter
             </a>
           </span>

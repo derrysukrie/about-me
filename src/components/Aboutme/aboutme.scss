@@ -5,9 +5,10 @@
     font-weight: 600;
   }
 
-  &__tensor-link {
+  &__pokemon-link {
     margin-top: 20px;
     font-size: 1rem;
+    width: fit-content;
     cursor: pointer;
     text-decoration: underline;
   }
