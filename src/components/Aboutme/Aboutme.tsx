@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import './aboutme.scss';
+// import './aboutme.scss';
 
 const string = `
 I'm Derry - currently working at Woobiz as a Frontend Engineer,

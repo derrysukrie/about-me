@@ -1,11 +1,15 @@
-@import '../src/components/Navbar/navbar.scss';
+// @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+@import '../src/components/Navbar/navbar.scss';
+@import '../src/components/Aboutme/aboutme.scss';
+@import '../src/components/Navbar/navbar.scss';
+@import '../src/components/Techstack/techstack.scss';
 // Global
 
 html,
 body {
   padding: 0;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif !important;
   margin: 0;
   font-weight: 300;
 }

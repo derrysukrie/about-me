@@ -8,16 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tensorflow-models/toxicity": "^1.2.2",
-    "@tensorflow/tfjs": "^2.1.0",
-    "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.5.0",
     "next": "^10.0.1",
-    "node-sass": "^4.14.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "sass": "^1.29.0"
   },
   "devDependencies": {
+    "@types/node": "^14.14.7",
+    "@types/react": "^16.9.56",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.6.0",
     "eslint-config-airbnb": "^18.2.0",
@@ -27,6 +26,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "typescript": "^4.0.5"
   }
 }

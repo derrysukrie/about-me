@@ -1,5 +1,5 @@
 import React from 'react';
-import './techstack.scss';
+// import './techstack.scss';
 
 function Techstack() {
   return (
