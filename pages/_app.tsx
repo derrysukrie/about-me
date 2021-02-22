@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './app.scss';
+import './index.scss';
 
 // _app.tsx sebagai wrapper semua pages, running both on server and client
 export default function App({ Component, pageProps }) {

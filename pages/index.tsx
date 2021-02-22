@@ -1,5 +1,3 @@
-import React from 'react';
-
 import DefaultLayout from 'layout/DefaultLayout';
 import Navbar from 'components/Navbar/Navbar';
 import Aboutme from 'components/Aboutme/Aboutme';
