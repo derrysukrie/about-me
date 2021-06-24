@@ -6,9 +6,9 @@ import Link from 'next/link';
 
 const string = `
 I'm Derry - currently working at Woobiz as a Frontend Engineer,
-Exploring Frontend stack like NextJS, Typescript and lil bit
-React Native too. I liked to make something from zero to hero, it
-feels like driving a truck in the mountain roads.
+Exploring Frontend stack like NextJS, Typescript, Storybook, React
+Query and Apollo GraphQL. I'm also experienced building E-commerce web application with
+latest Frontend technology stack
 `;
 
 function Aboutme() {
