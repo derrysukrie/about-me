@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react';
-import Link from 'next/link';
-
 // import './aboutme.scss';
 
 const string = `
