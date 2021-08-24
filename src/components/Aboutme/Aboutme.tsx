@@ -18,9 +18,6 @@ function Aboutme() {
         Hello there 👋
       </span>
       <div className="aboutme__intro">{string}</div>
-      <Link href="//pokemon-app-eight.vercel.app/">
-        <div className="aboutme__pokemon-link"> See my Pokemon App</div>
-      </Link>
     </div>
   );
 }
