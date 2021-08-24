@@ -53,13 +53,13 @@ function Techstack() {
               <div className="col-md-3 mb-5">
                 <div className="techstack__card">
                   <img
-                    src="images/redux.svg"
+                    src="images/react-query.svg"
                     className="rounded"
                     alt="logos"
                     width="125"
                   />
                   <div className="text-center pt-3 font-weight-bold">
-                    <span>Redux</span>
+                    <span>React Query</span>
                   </div>
                 </div>
               </div>
